@@ -1,0 +1,78 @@
+/* 이력서 디자인 — 교육생은 수정하지 않아도 됩니다 */
+:root {
+  --blue: #0070c0;
+  --navy: #0e2841;
+  --gray: #5a6b7d;
+}
+
+body {
+  margin: 0;
+  background: #eef3f9;
+  color: var(--navy);
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  line-height: 1.7;
+}
+
+.hero {
+  padding: 48px 16px;
+  background: linear-gradient(135deg, var(--navy), var(--blue));
+  color: #fff;
+  text-align: center;
+}
+
+.photo {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  max-width: 760px;
+  margin: -24px auto 0;
+  padding: 0 16px;
+}
+
+.card,
+.project {
+  padding: 20px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 16px rgb(14 40 65 / 10%);
+}
+
+.project {
+  margin-top: 12px;
+  border: 1px solid #d5e2f0;
+  box-shadow: none;
+}
+
+main h2 {
+  margin: 0 0 12px;
+  padding-left: 10px;
+  border-left: 4px solid var(--blue);
+}
+
+h3,
+a {
+  margin: 0;
+  color: var(--blue);
+}
+
+.meta {
+  color: var(--gray);
+}
+
+footer {
+  color: var(--gray);
+  text-align: center;
+}
+
+.level {
+  margin-left: 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: #fff;
+  font-size: 0.8rem;
+}
